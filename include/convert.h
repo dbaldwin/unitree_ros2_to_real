@@ -41,7 +41,7 @@ UNITREE_LEGGED_SDK::HighCmd rosMsg2Cmd(const ros2_unitree_legged_msgs::msg::High
         cmd.head[i] = msg->head[i];
         cmd.SN[i] = msg->sn[i];
         cmd.version[i] = msg->version[i];
-        cmd.position[i] = msg->position[i];
+        cmd.postion[i] = msg->position[i];
         cmd.velocity[i] = msg->velocity[i];
     }
 
